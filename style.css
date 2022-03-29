@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+html {
+    background: black;
+    color: white;
+}
+
+#cabeca {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 61px;
+    left: 133px
+}
+
+#corpo {
+    border-left: 1px solid white;
+    position: absolute;
+    left: 159px;
+    top: 113px;
+    height: 75px;
+}
+
+#braco1 {
+    border-left: 1px solid white;
+    height: 50px;
+    position: absolute;
+    left: 177px;
+    top: 119px;
+    transform: rotate(-45deg)
+}
+
+#braco2 {
+    border-left: 1px solid white;
+    height: 50px;
+    position: absolute;
+    left: 141px;
+    top: 120px;
+    transform: rotate(45deg)
+}
+
+#perna1 {
+    border-left: 1px solid white;
+    height: 50px;
+    position: absolute;
+    left: 141px;
+    top: 181px;
+    transform: rotate(45deg)
+}
+
+#perna2 {
+    border-left: 1px solid white;
+    height: 50px;
+    position: absolute;
+    left: 177px;
+    top: 179px;
+    transform: rotate(-45deg)
+}
+
+#cenario {
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    width: 150px;
+    height: 290px;
+    position: absolute;
+    top: 10px;
+}
+
+#cenario2 {
+    border-left: 1px solid white;
+    position: absolute;
+    height: 50px;
+    left: 158px;
+    top: 11px;
+}
+
+button {
+    margin-top: 300px;
+}
